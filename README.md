@@ -1,13 +1,13 @@
 <h1 align="center">Hi there 👋 I'm Yrashka</h1>
 
-<h3 align="center">Python Developer & Bot Maker from Ukraine</h3>
+<h3 align="center">Python Developer & Bot Maker /h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2563EB&center=true&vCenter=true&width=435&lines=Building+Telegram+Bots;Python+Automation;Open+Source+Contributor" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <img src="./ChatGPT Image Nov 30, 2025, 08_57_56 AM.png" width="150" alt="Yrashka" style="border-radius: 50%;"/>
+  <img src="https://i.ibb.co/8n5tn7nH/Chat-GPT-Image-Nov-30-2025-01-55-30-PM.png" width="200" alt="Yrashka" style="border-radius: 50%; border: 4px solid #2563EB; box-shadow: 0 8px 16px rgba(37, 99, 235, 0.3); transition: transform 0.3s ease;"/>
 </p>
 
 ---
