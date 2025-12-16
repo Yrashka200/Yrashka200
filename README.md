@@ -1,95 +1,146 @@
-<h1 align="center">Hi there 👋 I'm Yrashka</h1>
+<div align="center">
 
-<h3 align="center">Python Developer & Bot Maker /h3>
+# Hi there, I'm Yrashka!
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2563EB&center=true&vCenter=true&width=435&lines=Building+Telegram+Bots;Python+Automation;Open+Source+Contributor" alt="Typing SVG" />
-</p>
+### Python Junior Developer 
 
 <p align="center">
-  <img src="https://i.ibb.co/8n5tn7nH/Chat-GPT-Image-Nov-30-2025-01-55-30-PM.png" width="200" alt="Yrashka" style="border-radius: 50%; border: 4px solid #2563EB; box-shadow: 0 8px 16px rgba(37, 99, 235, 0.3); transition: transform 0.3s ease;"/>
-</p>
-
----
-
-## 👨‍💻 About Me
-
-I'm a 16-year-old Python developer passionate about creating automated solutions. I started coding at 14 and have built over 50 Telegram bots. Currently focused on Python automation, bot development.
-
----
-
-## 🛠️ Tech Stack
-
-### Languages
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-</p>
-
-### Tools & Technologies
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
-</p>
-
----
-
-## 📊 Programming Languages
-
-| Language | Proficiency | Status |
-|----------|-------------|--------|
-| **Python** | ██████████ **100%** | Know |
-| **HTML** | █████████░ **90%** | Knoe |
-| **Go** | █░░░░░░░░░ **10%** | Learning |
-| **CSS** | ░░░░░░░░░░ **0%** | Will Learn |
-| **JavaScript** | ░░░░░░░░░░ **0%** | Will learn|
-
----
-
-## 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Yrashka2025&show_icons=true&theme=default&hide_border=true&bg_color=ffffff&text_color=333333&title_color=2563EB&icon_color=2563EB" width="48%">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Yrashka2025&theme=default&hide_border=true&background=ffffff&stroke=2563EB&ring=2563EB&fire=2563EB&currStreakLabel=2563EB&sideLabels=2563EB&currStreakNum=2563EB&sideNums=2563EB&dates=2563EB" width="48%">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=2800&pause=1000&color=7B68EE&center=true&vCenter=true&width=500&lines=Building+Intelligent+Telegram+Bots;Automating+with+Python;Creating+Useful+Tools;Always+Learning+New+Things" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yrashka2025&layout=compact&theme=default&hide_border=true&bg_color=ffffff&text_color=333333&title_color=2563EB" width="48%">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Yrashka2025&theme=default&hide_border=true&bg_color=ffffff&text_color=333333&title_color=2563EB" width="48%">
+  <img src="https://i.ibb.co/8n5tn7nH/Chat-GPT-Image-Nov-30-2025-01-55-30-PM.png" width="220" alt="Yrashka"
+       style="border-radius: 50%;
+              border: 5px solid transparent;
+              background: linear-gradient(45deg, #7B68EE, #9370DB, #BA55D3) border-box;
+              box-shadow: 0 10px 30px rgba(123, 104, 238, 0.4),
+                          inset 0 0 20px rgba(255, 255, 255, 0.1);
+              transition: transform 0.5s ease;" />
 </p>
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Yrashka2025&theme=flat&no-frame=true&no-bg=true&margin-w=4&row=1&column=6" width="90%">
-</p>
+</div>
 
 ---
 
-## 🤝 Let's Connect
+##  About Me
 
-<p align="center">
-  <a href="https://github.com/Yrashka2025">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-  </a>
-  <a href="https://discord.gg/Yrashka200">
-    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" />
-  </a>
-  <a href="https://bsky.app/profile/yrashka.bsky.social">
-    <img src="https://img.shields.io/badge/Bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=white" />
-  </a>
-</p>
+<div align="center">
+  <p>
+    <strong>16-year-old junior developer passionate about automation and bot development.</strong><br/>
+    Started coding at 14 and have built <strong>50+ Telegram bots</strong> using Python.
+    Currently focused on creating useful automation tools and expanding my skills.
+  </p>
+
+  <div style="display: inline-flex; gap: 15px; flex-wrap: wrap; justify-content: center; margin: 20px 0;">
+    <div style="background: rgba(123, 104, 238, 0.1); padding: 10px 20px; border-radius: 10px; border-left: 4px solid #7B68EE;">
+      <strong>Open for work</strong><br/>
+      <small>Bot development & Python automation</small>
+    </div>
+    <div style="background: rgba(186, 85, 211, 0.1); padding: 10px 20px; border-radius: 10px; border-left: 4px solid #BA55D3;">
+      <strong>Next Goals</strong><br/>
+      <small>JavaScript & CSS</small>
+    </div>
+  </div>
+</div>
+
 ---
+
+## Contact
+
+You can reach me at the following
+- GitHub: [@Yrashka2025](https://github.com/Yrashka2025)
+- X: [@Yrashka200](https://x.com/Yrashka200)
+- Bluesky: [@yrashka.bsky.social](https://bsky.app/profile/yrashka.bsky.social)
+- Discord: Yrashka200
+
+---
+
+## My Tech Stack
+
+### What I Know
+<div align="center" style="margin: 30px 0;">
+  <img src="https://skillicons.dev/icons?i=python,html,css,git,github,vscode,linux,go" />
+</div>
+
+### Skill Progress
+
+<div align="center">
+  <table style="width: 80%; margin: 0 auto; border-spacing: 15px;">
+    <tr>
+      <td width="30%"><strong>Python</strong></td>
+      <td width="60%">
+        <div style="background: linear-gradient(90deg, #7B68EE 100%, #2D2D2D 0%);
+                    height: 12px; border-radius: 6px; margin: 5px 0;"></div>
+      </td>
+      <td width="10%" align="center">Expert</td>
+    </tr>
+    <tr>
+      <td><strong>HTML</strong></td>
+      <td>
+        <div style="background: linear-gradient(90deg, #9370DB 90%, #2D2D2D 10%);
+                    height: 12px; border-radius: 6px; margin: 5px 0;"></div>
+      </td>
+      <td align="center">Advanced</td>
+    </tr>
+    <tr>
+      <td><strong>CSS</strong></td>
+      <td>
+        <div style="background: linear-gradient(90deg, #BA55D3 40%, #2D2D2D 60%);
+                    height: 12px; border-radius: 6px; margin: 5px 0;"></div>
+      </td>
+      <td align="center">Learning</td>
+    </tr>
+    <tr>
+      <td><strong>Go</strong></td>
+      <td>
+        <div style="background: linear-gradient(90deg, #DDA0DD 15%, #2D2D2D 85%);
+                    height: 12px; border-radius: 6px; margin: 5px 0;"></div>
+      </td>
+      <td align="center">Beginner</td>
+    </tr>
+  </table>
+</div>
+
+---
+
+## GitHub Activity
 
 <div align="center">
 
-## ✨ Thanks for visiting!
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Yrashka2025&color=2563EB&style=for-the-badge&label=Profile+Views" />
-</p>
+<br/>
 
+### GitHub Statistics
+<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Yrashka2025&show_icons=true&theme=radical&hide_border=true&bg_color=0d1117&title_color=7B68EE&icon_color=9370DB&text_color=ffffff&hide=issues" alt="Stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yrashka2025&layout=compact&theme=radical&hide_border=true&bg_color=0d1117&title_color=7B68EE&text_color=ffffff&hide=html,css&langs_count=4" alt="Top Languages" />
+</div>
+
+<br/>
+
+### Coding Streak
+<div align="center">
+  <img height="165" src="https://streak-stats.demolab.com?user=Yrashka2025&theme=radical&hide_border=true&background=0d1117&ring=7B68EE&fire=9370DB&currStreakLabel=7B68EE&dates=ffffff" alt="Streak" />
+</div>
+
+<br/>
+
+<div>
+  <img src="https://hitscounter.dev/api/hit?url=https%3A%2F%2Fgithub.com%2FYrashka2025&label=Profile%20Views&icon=github&color=7B68EE&style=flat-square" />
+</div>
 
 </div>
+
+---
+
+## Featured Projects
+
+- **Python-Project-Ideas-Generator** - Tool for generating creative project ideas for Python developers
+- **PyASCII** - ASCII art generator and image converter
+- **Pc-Cleaner** - System cleanup and optimization tool for Windows PCs
+- **Python-for-beginners** - Learning resources and tutorials for Python beginners
+- **Brawl-Stars-Profile-bot** - Telegram bot for Brawl Stars profile statistics
+- **Telegram-Bot-Bio** - Dynamic bio changer for Telegram profiles
+- **PyOrganizer** - File organization and management tool
+- **Py-anime-Chat** - Anime-themed chat application
+- **Web-Portfolio** - Personal portfolio website
