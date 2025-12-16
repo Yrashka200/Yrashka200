@@ -7,17 +7,6 @@
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=2800&pause=1000&color=7B68EE&center=true&vCenter=true&width=500&lines=Building+Intelligent+Telegram+Bots;Automating+with+Python;Creating+Useful+Tools;Always+Learning+New+Things" alt="Typing SVG" />
 </p>
-
-<p align="center">
-  <img src="https://i.ibb.co/8n5tn7nH/Chat-GPT-Image-Nov-30-2025-01-55-30-PM.png" width="220" alt="Yrashka"
-       style="border-radius: 50%;
-              border: 5px solid transparent;
-              background: linear-gradient(45deg, #7B68EE, #9370DB, #BA55D3) border-box;
-              box-shadow: 0 10px 30px rgba(123, 104, 238, 0.4),
-                          inset 0 0 20px rgba(255, 255, 255, 0.1);
-              transition: transform 0.5s ease;" />
-</p>
-
 </div>
 
 ---
