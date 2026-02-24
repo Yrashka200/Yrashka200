@@ -5,6 +5,13 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=2500&pause=800&color=7B68EE&center=true&vCenter=true&width=460&lines=Python+Automation;Telegram+Bot+Development;Clean+Code+%26+Tools" />
 
+
+<p align="center">
+  <a href="https://yrashka200.github.io/Web-Portfolio/" target="_blank">
+    <img src="https://img.shields.io/badge/🌐_My_Portfolio-7B68EE?style=for-the-badge&logo=google-chrome&logoColor=white" />
+  </a>
+</p>
+
 </div>
 
 ---
@@ -17,7 +24,7 @@
 - Interested in clean architecture and useful tools  
 - Currently learning **Go**  
 
-> Open to collaboration
+> Let's connect and build together 🧑‍💻
 ---
 
 ## Tech Stack
