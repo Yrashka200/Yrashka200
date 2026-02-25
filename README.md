@@ -68,3 +68,4 @@
 - X: [@Yrashka200](https://x.com/Yrashka200)
 - Bluesky: [@yrashka.bsky.social](https://bsky.app/profile/yrashka.bsky.social)
 - Discord: **Yrashka200**
+- Email: yrashka2025@atomicmail.io
