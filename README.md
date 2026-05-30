@@ -4,7 +4,7 @@
 
 # 👋 Hi, I'm Yrashka
 
-### Python Developer • Automation Engineer • Telegram Bot Creator
+### Python Developer • Telegram Bot Creator
 
 </div>
 
