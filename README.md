@@ -4,11 +4,7 @@
 
 # 👋 Hi, I'm Yrashka
 
-### Python Developer • Telegram Bot Creator
-
-</div>
-
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2500&pause=800&color=7B68EE&center=true&vCenter=true&width=600&lines=Python+Developer;Telegram+Bot+Developer;Automation+Enthusiast;Learning+Go;Building+Useful+Tools" />
+### Python Developer • Telegram Bot Developer • Automation Enthusiast
 
 <br>
 
@@ -16,7 +12,7 @@
 <img src="https://img.shields.io/badge/🌐_Portfolio-7B68EE?style=for-the-badge" />
 </a>
 
-<a href="https://github.com/Yrashka200">
+<a href="https://github.com/Yrashka200?tab=followers">
 <img src="https://img.shields.io/github/followers/Yrashka200?style=for-the-badge&color=7B68EE" />
 </a>
 
@@ -30,63 +26,29 @@
 
 # 🚀 About Me
 
-```python
-class Yrashka:
-
-    age_started = 14
-
-    skills = [
-        "Python",
-        "Telegram Bots",
-        "Automation",
-        "Linux"
-    ]
-
-    currently_learning = "Go"
-
-    telegram_bots_built = "20+"
-
-    goal = "Build useful software"
-```
-
----
-
-# 🎯 Current Focus
-
-* 🤖 Building Telegram bots
-* ⚡ Automation scripts
-* 🏗️ Learning Go
-* 📚 Improving software architecture
-* 🚀 Open Source
+- 🐍 Python Developer
+- 🤖 Created **20+ Telegram Bots**
+- ⚡ Passionate about automation and useful software
+- 🐧 Linux & Neovim user
+- 🌱 Currently learning **Go**
+- 🚀 Open Source enthusiast
 
 ---
 
 # 🛠 Tech Stack
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,go,git,github,linux,vscode,html,css" />
+<img src="https://skillicons.dev/icons?i=python,go,git,github,linux,neovim,vscode,html,css" />
 </p>
 
 ---
 
-# 📊 GitHub Analytics
+# 📊 GitHub Statistics
 
 <p align="center">
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=Yrashka200&show_icons=true&theme=tokyonight&hide_border=true" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Yrashka200&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&cache_seconds=86400" />
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yrashka200&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-<img src="https://streak-stats.demolab.com?user=Yrashka200&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
-# 🏆 Achievements
-
-<p align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=Yrashka200&theme=tokyonight&no-frame=true&row=1&column=6" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Yrashka200&layout=compact&theme=tokyonight&hide_border=true&cache_seconds=86400" />
 </p>
 
 ---
@@ -94,35 +56,43 @@ class Yrashka:
 # 📈 Contribution Graph
 
 <p align="center">
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Yrashka200&theme=tokyo-night&hide_border=true" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Yrashka200&theme=tokyo-night&hide_border=true&radius=12" />
 </p>
 
 ---
 
-# 🔥 Featured Projects
+# 🐍 Contribution Snake
 
-| Project                        | Description             |
-| ------------------------------ | ----------------------- |
-| PyASCII                        | ASCII Art Generator     |
-| Pc-Cleaner                     | Windows Cleanup Tool    |
-| Telegram-Bot-Bio               | Dynamic Telegram Bio    |
-| Brawl-Stars-Profile-bot        | Brawl Stars Stats       |
-| PyOrganizer                    | File Organizer          |
-| Python-Project-Ideas-Generator | Project Ideas Generator |
+<p align="center">
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Yrashka200/Yrashka200/output/github-contribution-grid-snake-dark.svg">
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Yrashka200/Yrashka200/output/github-contribution-grid-snake.svg">
+  <img
+    alt="GitHub Contribution Snake"
+    src="https://raw.githubusercontent.com/Yrashka200/Yrashka200/output/github-contribution-grid-snake.svg">
+</picture>
+</p>
 
 ---
 
-# 📚 Learning Journey
+# 🚀 Featured Projects
 
-```text
-Python      ████████████████████ 95%
-Automation  ██████████████████░░ 90%
-Telegram    ██████████████████░░ 90%
-Linux       ███████████████░░░░░ 75%
-Go          ███████░░░░░░░░░░░░░ 35%
-```
+| Project | Description |
+|---------|-------------|
+| **PyASCII** | ASCII Art Generator |
+| **Pc-Cleaner** | Windows Cleanup Tool |
+| **Telegram-Bot-Bio** | Dynamic Telegram Bio |
+| **Brawl-Stars-Profile-bot** | Brawl Stars Statistics |
+| **PyOrganizer** | File Organizer |
+| **Python-Project-Ideas-Generator** | Random Project Generator |
 
-#  Connect With Me
+---
+
+# 🌐 Connect With Me
 
 <p align="center">
 
@@ -135,7 +105,7 @@ Go          ███████░░░░░░░░░░░░░ 35%
 </a>
 
 <a href="https://bsky.app/profile/yrashka.bsky.social">
-<img src="https://img.shields.io/badge/Bluesky-0285FF?style=for-the-badge&logo=bluesky" />
+<img src="https://img.shields.io/badge/Bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=white" />
 </a>
 
 </p>
@@ -144,6 +114,8 @@ Go          ███████░░░░░░░░░░░░░ 35%
 
 <div align="center">
 
-### 💜 Thanks for visiting my profile
+###  Thanks for visiting my profile!
+
+*"Code. Learn. Build. Repeat."*
 
 </div>
