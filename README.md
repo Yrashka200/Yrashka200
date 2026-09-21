@@ -8,8 +8,12 @@
 
 <br>
 
-<a href="https://yrashka200.github.io/Web-Portfolio/">
+<a href="https://yrashka200-portfolio-website.vercel.app/">
 <img src="https://img.shields.io/badge/🌐_Portfolio-7B68EE?style=for-the-badge" />
+</a>
+
+<a href="https://blog-yrashka.vercel.app/">
+<img src="https://img.shields.io/badge/📝_Blog-7B68EE?style=for-the-badge" />
 </a>
 
 <a href="https://github.com/Yrashka200?tab=followers">
@@ -26,12 +30,13 @@
 
 # 🚀 About Me
 
-- 🐍 Python Developer
-- 🤖 Created **20+ Telegram Bots**
-- ⚡ Passionate about automation and useful software
-- 🐧 Linux & Neovim user
-- 🌱 Currently learning **Go**
-- 🚀 Open Source enthusiast
+* 🐍 Python Developer
+* 🤖 Created **20+ Telegram Bots**
+* ⚡ Passionate about automation and useful software
+* 🐧 Linux & Neovim user
+* 🌱 Currently learning **Go**
+* 🚀 Open Source enthusiast
+* ✍️ Writing about programming on my **[Blog](https://blog-yrashka.vercel.app/)**
 
 ---
 
@@ -43,7 +48,7 @@
 
 ---
 
-# 📊 GitHub Statistics
+#  GitHub Statistics
 
 <p align="center">
 <img height="170" src="https://github-readme-stats.vercel.app/api?username=Yrashka200&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&cache_seconds=86400" />
@@ -53,7 +58,7 @@
 
 ---
 
-# 📈 Contribution Graph
+#  Contribution Graph
 
 <p align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Yrashka200&theme=tokyo-night&hide_border=true&radius=12" />
@@ -61,7 +66,7 @@
 
 ---
 
-# 🐍 Contribution Snake
+#  Contribution Snake
 
 <p align="center">
 <picture>
@@ -79,20 +84,17 @@
 
 ---
 
-# 🚀 Featured Projects
+#  Latest Projects
 
-| Project | Description |
-|---------|-------------|
-| **PyASCII** | ASCII Art Generator |
-| **Pc-Cleaner** | Windows Cleanup Tool |
-| **Telegram-Bot-Bio** | Dynamic Telegram Bio |
-| **Brawl-Stars-Profile-bot** | Brawl Stars Statistics |
-| **PyOrganizer** | File Organizer |
-| **Python-Project-Ideas-Generator** | Random Project Generator |
+<!-- PROJECTS:START -->
+
+<!-- PROJECTS:END -->
+
+> This section is automatically updated with my latest GitHub repositories.
 
 ---
 
-# 🌐 Connect With Me
+#  Connect With Me
 
 <p align="center">
 
@@ -108,14 +110,19 @@
 <img src="https://img.shields.io/badge/Bluesky-0285FF?style=for-the-badge&logo=bluesky&logoColor=white" />
 </a>
 
+<a href="https://blog-yrashka.vercel.app/">
+<img src="https://img.shields.io/badge/Blog-7B68EE?style=for-the-badge&logo=blogger&logoColor=white" />
+</a>
+
 </p>
 
 ---
 
 <div align="center">
 
-###  Thanks for visiting my profile!
+### Thanks for visiting my profile!
 
 *"Code. Learn. Build. Repeat."*
 
 </div>
+
