@@ -88,6 +88,13 @@
 
 <!-- PROJECTS:START -->
 
+- 🚀 **[youtube-fliter](https://github.com/Yrashka200/youtube-fliter)** — Better expirence with Youtube Fliter • `JavaScript` • ⭐ 1 • 🍴 0
+- 🚀 **[Free-Web-Development-Resources](https://github.com/Yrashka200/Free-Web-Development-Resources)** — Collect all free WebDev Resurces in 2026 • ⭐ 0 • 🍴 0
+- 🚀 **[Devlist](https://github.com/Yrashka200/Devlist)** — DevList is a simple community-driven page where developers can share their profiles, skills, and links. • `JavaScript` • ⭐ 0 • 🍴 1
+- 🚀 **[Python-codespace](https://github.com/Yrashka200/Python-codespace)** — Python Codespace Template • `Shell` • ⭐ 0 • 🍴 0
+- 🚀 **[Python-for-begginers](https://github.com/Yrashka200/Python-for-begginers)** — Free cours for Python beginners with examples • `Python` • ⭐ 0 • 🍴 0
+- 🚀 **[Panchi](https://github.com/Yrashka200/Panchi)** — A simle Programming Language based on Python  • `HTML` • ⭐ 0 • 🍴 0
+
 <!-- PROJECTS:END -->
 
 > This section is automatically updated with my latest GitHub repositories.
