@@ -88,11 +88,11 @@
 
 <!-- PROJECTS:START -->
 
+- 🚀 **[Chrome-lite](https://github.com/Yrashka200/Chrome-lite)** — No description • `JavaScript` • ⭐ 0 • 🍴 0
 - 🚀 **[EasyVim](https://github.com/Yrashka200/EasyVim)** — My  file confugirations for Neovim • `Lua` • ⭐ 0 • 🍴 0
 - 🚀 **[youtube-fliter](https://github.com/Yrashka200/youtube-fliter)** — Better expirence with Youtube Fliter • `JavaScript` • ⭐ 2 • 🍴 0
 - 🚀 **[Github-explorer](https://github.com/Yrashka200/Github-explorer)** — A simple Github Explorer with cool features • `HTML` • ⭐ 0 • 🍴 0
 - 🚀 **[theme-changer.nvim](https://github.com/Yrashka200/theme-changer.nvim)** —  A small Neovim plugin for browsing and switching between popular colorschemes • `Lua` • ⭐ 0 • 🍴 0
-- 🚀 **[Chrome-lite](https://github.com/Yrashka200/Chrome-lite)** — No description • `JavaScript` • ⭐ 0 • 🍴 0
 - 🚀 **[js-basics](https://github.com/Yrashka200/js-basics)** — My notes for learning javaScript by examples  • ⭐ 0 • 🍴 0
 
 <!-- PROJECTS:END -->
