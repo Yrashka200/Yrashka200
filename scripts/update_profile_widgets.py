@@ -20,7 +20,6 @@ KYIV = ZoneInfo("Europe/Kyiv")
 
 
 def github_request(path: str) -> dict:
-    """GET a GitHub API endpoint and return parsed JSON."""
     headers = {
         "Accept": "application/vnd.github+json",
         "X-GitHub-Api-Version": "2022-11-28",
@@ -55,11 +54,8 @@ def truncate(value: str, limit: int) -> str:
 
 
 def write_stats() -> None:
-    """Render a GitHub profile stats widget (replaces the old clock)."""
     user = fetch_profile()
-    repos = github_request(
-        f"/users/{USERNAME}/repos?per_page=100&type=owner"
-    )
+    repos = github_request(f"/users/{USERNAME}/repos?per_page=100&type=owner")
 
     public_repos = user.get("public_repos", 0)
     followers = user.get("followers", 0)
@@ -68,7 +64,6 @@ def write_stats() -> None:
     total_stars = sum(r.get("stargazers_count", 0) for r in repos)
     total_forks = sum(r.get("forks_count", 0) for r in repos)
 
-    # Most used language across owned repos
     lang_counter: dict[str, int] = {}
     for repo in repos:
         lang = repo.get("language")
@@ -82,7 +77,6 @@ def write_stats() -> None:
 
     now = datetime.now(KYIV).strftime("%d %b %Y")
 
-    # Stat tiles: 4 columns × 2 rows
     tiles = [
         ("REPOSITORIES", public_repos),
         ("TOTAL STARS", total_stars),
