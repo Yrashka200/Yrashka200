@@ -19,38 +19,8 @@ USERNAME = "Yrashka200"
 KYIV = ZoneInfo("Europe/Kyiv")
 
 
-def write_clock() -> None:
-    now = datetime.now(KYIV)
-    time_label = now.strftime("%H:%M")
-    date_label = now.strftime("%A, %d %B %Y")
-    timezone_label = now.tzname() or "Europe/Kyiv"
-    hour_angle = (now.hour % 12 + now.minute / 60) * 30
-    minute_angle = now.minute * 6
-
-    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="860" height="150" viewBox="0 0 860 150" role="img" aria-labelledby="title description">
-  <title id="title">Time in Kyiv: {time_label}</title>
-  <desc id="description">{escape(date_label)} · {escape(timezone_label)} · refreshes every five minutes</desc>
-  <rect width="860" height="150" rx="20" fill="#101426"/>
-  <rect x="1" y="1" width="858" height="148" rx="19" fill="none" stroke="#29304a"/>
-  <circle cx="82" cy="75" r="43" fill="#191f36" stroke="#343c5e" stroke-width="2"/>
-  <circle cx="82" cy="75" r="3" fill="#b3a5ff"/>
-  <path d="M82 75 L82 48" stroke="#f4f1ff" stroke-width="4" stroke-linecap="round" transform="rotate({hour_angle:.1f} 82 75)"/>
-  <path d="M82 75 L82 40" stroke="#9e8cff" stroke-width="2.5" stroke-linecap="round" transform="rotate({minute_angle:.1f} 82 75)"/>
-  <text x="155" y="49" fill="#a5abc2" font-family="Segoe UI,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">LOCAL TIME · KYIV, UKRAINE</text>
-  <text x="151" y="105" fill="#f4f1ff" font-family="Segoe UI,Arial,sans-serif" font-size="48" font-weight="700">{time_label}</text>
-  <text x="330" y="101" fill="#a5abc2" font-family="Segoe UI,Arial,sans-serif" font-size="15">{escape(timezone_label)} · {escape(date_label)}</text>
-  <rect x="710" y="57" width="116" height="36" rx="18" fill="#211e3b"/>
-  <circle cx="728" cy="75" r="4" fill="#8f7bff"/>
-  <text x="741" y="80" fill="#c6bdff" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="1">UTC{now.strftime('%z')[:3]}</text>
-</svg>
-"""
-    ASSETS.mkdir(parents=True, exist_ok=True)
-    (ASSETS / "kyiv-clock.svg").write_text(svg, encoding="utf-8")
-    print(f"Updated Kyiv clock: {time_label} {timezone_label}")
-
-
-def fetch_repositories() -> list[dict]:
-    url = f"https://api.github.com/users/{USERNAME}/repos?sort=updated&direction=desc&per_page=100"
+def github_request(path: str) -> dict:
+    """GET a GitHub API endpoint and return parsed JSON."""
     headers = {
         "Accept": "application/vnd.github+json",
         "X-GitHub-Api-Version": "2022-11-28",
@@ -59,10 +29,15 @@ def fetch_repositories() -> list[dict]:
     if token:
         headers["Authorization"] = f"Bearer {token}"
 
-    request = urllib.request.Request(url, headers=headers)
+    request = urllib.request.Request(f"https://api.github.com{path}", headers=headers)
     with urllib.request.urlopen(request, timeout=30) as response:
-        repos = json.load(response)
+        return json.load(response)
 
+
+def fetch_repositories() -> list[dict]:
+    repos = github_request(
+        f"/users/{USERNAME}/repos?sort=updated&direction=desc&per_page=100"
+    )
     return [
         repo
         for repo in repos
@@ -70,9 +45,95 @@ def fetch_repositories() -> list[dict]:
     ][:6]
 
 
+def fetch_profile() -> dict:
+    return github_request(f"/users/{USERNAME}")
+
+
 def truncate(value: str, limit: int) -> str:
     value = re.sub(r"\s+", " ", value).strip()
     return value if len(value) <= limit else value[: limit - 1].rstrip() + "…"
+
+
+def write_stats() -> None:
+    """Render a GitHub profile stats widget (replaces the old clock)."""
+    user = fetch_profile()
+    repos = github_request(
+        f"/users/{USERNAME}/repos?per_page=100&type=owner"
+    )
+
+    public_repos = user.get("public_repos", 0)
+    followers = user.get("followers", 0)
+    following = user.get("following", 0)
+
+    total_stars = sum(r.get("stargazers_count", 0) for r in repos)
+    total_forks = sum(r.get("forks_count", 0) for r in repos)
+
+    # Most used language across owned repos
+    lang_counter: dict[str, int] = {}
+    for repo in repos:
+        lang = repo.get("language")
+        if lang:
+            lang_counter[lang] = lang_counter.get(lang, 0) + 1
+    top_language = max(lang_counter, key=lang_counter.get) if lang_counter else "—"
+
+    created = datetime.strptime(user["created_at"], "%Y-%m-%dT%H:%M:%SZ")
+    years = (datetime.utcnow() - created).days // 365
+    joined = created.strftime("%b %Y")
+
+    now = datetime.now(KYIV).strftime("%d %b %Y")
+
+    # Stat tiles: 4 columns × 2 rows
+    tiles = [
+        ("REPOSITORIES", public_repos),
+        ("TOTAL STARS", total_stars),
+        ("TOTAL FORKS", total_forks),
+        ("FOLLOWERS", followers),
+        ("FOLLOWING", following),
+        ("TOP LANGUAGE", top_language),
+        ("YEARS ON GITHUB", years),
+        ("JOINED", joined),
+    ]
+
+    tile_w, tile_h = 196, 92
+    pad_x, pad_y = 16, 24
+    gap = 12
+    cols = 4
+    rows = (len(tiles) + cols - 1) // cols
+    width = pad_x * 2 + cols * tile_w + (cols - 1) * gap
+    height = 64 + rows * tile_h + (rows - 1) * gap + pad_y
+
+    tiles_svg = []
+    for i, (label, value) in enumerate(tiles):
+        col = i % cols
+        row = i // cols
+        x = pad_x + col * (tile_w + gap)
+        y = 52 + row * (tile_h + gap)
+        tiles_svg.append(
+            f"""  <g>
+    <rect x="{x}" y="{y}" width="{tile_w}" height="{tile_h}" rx="14" fill="#141a2d" stroke="#29304a"/>
+    <text x="{x + 18}" y="{y + 26}" fill="#a5abc2" font-family="Segoe UI,Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1.5">{escape(label)}</text>
+    <text x="{x + 18}" y="{y + 68}" fill="#f4f1ff" font-family="Segoe UI,Arial,sans-serif" font-size="30" font-weight="700">{escape(str(value))}</text>
+  </g>"""
+        )
+
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title description">
+  <title id="title">GitHub stats for {USERNAME}</title>
+  <desc id="description">Repositories, stars, forks, followers, top language and join date. Refreshed daily.</desc>
+  <rect width="{width}" height="{height}" rx="20" fill="#101426"/>
+  <rect x="1" y="1" width="{width - 2}" height="{height - 2}" rx="19" fill="none" stroke="#29304a"/>
+  <circle cx="28" cy="28" r="6" fill="#9e8cff"/>
+  <text x="44" y="33" fill="#f4f1ff" font-family="Segoe UI,Arial,sans-serif" font-size="15" font-weight="700">GitHub Stats</text>
+  <text x="{width - 18}" y="33" text-anchor="end" fill="#777f9b" font-family="Segoe UI,Arial,sans-serif" font-size="11">UPDATED {now.upper()}</text>
+  <line x1="{pad_x}" y1="44" x2="{width - pad_x}" y2="44" stroke="#29304a"/>
+{chr(10).join(tiles_svg)}
+</svg>
+"""
+    ASSETS.mkdir(parents=True, exist_ok=True)
+    (ASSETS / "github-stats.svg").write_text(svg, encoding="utf-8")
+    print(
+        f"Updated GitHub stats widget: {public_repos} repos, "
+        f"{total_stars} stars, {followers} followers."
+    )
 
 
 def write_projects() -> None:
@@ -124,11 +185,11 @@ def write_projects() -> None:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("widget", choices=("clock", "projects", "all"))
+    parser.add_argument("widget", choices=("stats", "projects", "all"))
     widget = parser.parse_args().widget
 
-    if widget in ("clock", "all"):
-        write_clock()
+    if widget in ("stats", "all"):
+        write_stats()
     if widget in ("projects", "all"):
         write_projects()
 
