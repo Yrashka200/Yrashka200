@@ -46,10 +46,10 @@ I build useful tools, bots, and small projects that make everyday tasks easier.
   <img src="https://skillicons.dev/icons?i=python,go,git,github,linux,neovim,vscode,html,css&theme=dark" alt="Python, Go, Git, GitHub, Linux, Neovim, VS Code, HTML, and CSS" />
 </p>
 
-### Kyiv, right now
+### GitHub stats
 
 <p>
-  <img src="https://raw.githubusercontent.com/Yrashka200/Yrashka200/profile-widgets/assets/kyiv-clock.svg" alt="Current time in Kyiv" width="100%" />
+  <img src="https://raw.githubusercontent.com/Yrashka200/Yrashka200/main/assets/github-stats.svg" alt="GitHub stats for Yrashka200" width="100%" />
 </p>
 
 ### Fresh from my GitHub
